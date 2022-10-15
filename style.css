@@ -32,7 +32,7 @@
 
 .text-img {
     display: flex;
-    padding: 80px ;
+    padding: 90px ;
     width: 56em;
     height: fit-content;
     gap: 20px;
@@ -75,4 +75,99 @@
     height: 180px;
     background-color: rgb(128, 127, 127);
 
+}
+
+
+.section-images {
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#random-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    margin-bottom: -38px;
+}
+
+.images-items {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    height: 140px;
+    width: 140px;
+    border: 4px solid cadetblue;
+    border-radius: 10px;
+}
+
+.section-quote {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+    padding: 60px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.quote {
+    font-size: 30px;
+    
+}
+
+.quote-autor {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-button {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    background-color:  rgb(46, 130, 255);
+    padding: 30px 80px;
+    gap: 260px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    padding: 14px 30px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.section-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 24px;
 }
